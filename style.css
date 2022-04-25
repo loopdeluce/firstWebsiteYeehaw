@@ -29,6 +29,7 @@ body {
 
 #text h1{
     margin-bottom:2%;
+    font-size:7vw;
 }
 
 #text h2{
@@ -52,22 +53,22 @@ body {
 }
 
 #links h4 a:link{
-    color: #000;
+    color: #000; 
     text-decoration: none;
 }
 
 #links h4 a:visited{
-    color: #000;
+    color: #000; 
     text-decoration: none;
 }
 
 #links h4 a:hover{
-    color: #000;
+    /* color: #000; */
     text-decoration: none;
 }
 
 #links h4 a:active{
-    color: #000;
+    /* color: #000; */
     text-decoration: none;
 }
 
