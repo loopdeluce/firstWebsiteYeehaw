@@ -25,18 +25,18 @@ function linksColorEnter() {
     const bar = document.querySelectorAll("#links h4");
     for (let i = 0; i < bar.length; i++)
     {
-        bar[i].style.color = '#D3D3D3';
+        bar[i].style.color = '#cc99b2';
         // console.log(bar[i]);
     }
 
     const linkedIn = document.getElementById("linkedIn");
-    linkedIn.style.color = "#D3D3D3";
+    linkedIn.style.color = "#cc99b2";
 
     const github = document.getElementById("github");
-    github.style.color = "#D3D3D3";
+    github.style.color = "#cc99b2";
 
     const resume = document.getElementById("resume");
-    resume.style.color = "#D3D3D3";
+    resume.style.color = "#cc99b2";
 };
 
 const linksLeave = document.getElementById("links");
@@ -47,48 +47,48 @@ function linksColorLeave() {
     const lettering = document.querySelectorAll("#links h4");
     for (let i = 0; i < lettering.length; i++)
     {
-        lettering[i].style.color = '#000';
+        lettering[i].style.color = '#800040';
         // console.log(lettering[i]);
     }
 
     const linkedIn = document.getElementById("linkedIn");
-    linkedIn.style.color = "#000";
+    linkedIn.style.color = "#800040";
 
     const github = document.getElementById("github");
-    github.style.color = "#000";
+    github.style.color = "#800040";
 
     const resume = document.getElementById("resume");
-    resume.style.color = "#000";
+    resume.style.color = "#800040";
 };
 
 //highlight the specific link as black; leaving the other links as grey
 
 const linkedIn = document.getElementById("linkedIn");
 linkedIn.addEventListener("mouseenter", function(e){
-    e.srcElement.style.color = "#000";
+    e.srcElement.style.color = "#800040";
     // console.log(e);
 });
 linkedIn.addEventListener("mouseleave", function(e){
-    e.srcElement.style.color = "#D3D3D3";
+    e.srcElement.style.color = "#cc99b2";
     // console.log(e);
 });
 
 const github = document.getElementById("github");
 github.addEventListener("mouseenter", function(e){
-    e.srcElement.style.color = "#000";
+    e.srcElement.style.color = "#800040";
     // console.log(e);
 });
 github.addEventListener("mouseleave", function(e){
-    e.srcElement.style.color = "#D3D3D3";
+    e.srcElement.style.color = "#cc99b2";
     // console.log(e);
 });
 
 //const resume = document.getElementById("resume");
 resume.addEventListener("mouseenter", function(e){
-    e.srcElement.style.color = "#000";
+    e.srcElement.style.color = "#800040";
     // console.log(e);
 });
 resume.addEventListener("mouseleave", function(e){
-    e.srcElement.style.color = "#D3D3D3";
+    e.srcElement.style.color = "#cc99b2";
     // console.log(e);
 });
