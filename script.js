@@ -92,3 +92,21 @@ resume.addEventListener("mouseleave", function(e){
     e.srcElement.style.color = "#cc99b2";
     // console.log(e);
 });
+
+//enlargen the links when scrolled over
+
+const paragraphLinks = document.querySelectorAll(".textBlurb a");
+
+for (let i = 0; i < paragraphLinks.length; i++){
+    paragraphLinks.item(i).addEventListener("mouseenter", function(e){
+            // console.log(e);
+            e.srcElement.style.color = "#d24375";
+        })
+};
+
+for (let i = 0; i < paragraphLinks.length; i++){
+    paragraphLinks.item(i).addEventListener("mouseleave", function(e){
+            // console.log(e);
+            e.srcElement.style.color = "#bf7f9f";
+        })
+};
